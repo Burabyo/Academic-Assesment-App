@@ -54,11 +54,4 @@ class _MainNavState extends State<MainNav> {
         selectedItemColor: const Color(0xFFFFC107),
         unselectedItemColor: Colors.white70,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: 'Dashboard'),
-          BottomNavigationBarItem(icon: Icon(Icons.assignment), label: 'Assignments'),
-          BottomNavigationBarItem(icon: Icon(Icons.schedule), label: 'Schedule'),
-        ],
-      ),
-    );
-  }
-}
+          
